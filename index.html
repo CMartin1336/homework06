@@ -5,9 +5,34 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Weather Dashboard</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
     <link rel="stylesheet" href="./assets/style.css" />
 </head>
 <body>
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+            <h1 class="display-4">Mother Fluffin Weather</h1>
+            <p class="lead">Come and search from city to city the Mother Fluffin Weather!</p>
+        </div>
+    </div>
+    <div class="">
+        <div class="leftSide">
+            <form>
+                <div class="form-group">
+                    <label for="exampleCity">Put in the name of a city</label>
+                    <input type="city" class="form-control" id="exampleCity" placeholder="Los Angeles">
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+            <div class="searchedCities">
+                <!--This is where all the past searched cities will go-->
+                <h1>City History</h1>
+            </div>
+        </div>
+        <div class="rightSide">
+          <!--Put right hand content here -->  
+        </div>
+    </div>  
     <script src="./assets/script.js"></script>
 </body>
 </html>
