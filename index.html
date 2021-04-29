@@ -15,8 +15,9 @@
             <p class="lead">Come and search from city to city the Mother Fluffin Weather!</p>
         </div>
     </div>
-    <div class="">
-        <div class="leftSide">
+    <div class="container">
+    <div class="row">
+        <div class="col-4">
             <form>
                 <div class="form-group">
                     <label for="exampleCity">Put in the name of a city</label>
@@ -24,14 +25,15 @@
                 </div>
                 <button type="submit" class="btn btn-primary">Submit</button>
             </form>
-            <div class="searchedCities">
-                <!--This is where all the past searched cities will go-->
+            <section class="searchedCities">
                 <h1>City History</h1>
-            </div>
+            </section>
         </div>
-        <div class="rightSide">
-          <!--Put right hand content here -->  
+        <div class="col-8">
+          <h2>The Weather Yo</h2>
+          <section id="currentWeather"></section>
         </div>
+    </div>
     </div>  
     <script src="./assets/script.js"></script>
 </body>
